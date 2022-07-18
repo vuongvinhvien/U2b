@@ -1,0 +1,22 @@
+{
+  "name": "U2b",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "Delete recommend video youtube",
+ "icons": {
+    "16": "unnamed.png",
+    "32": "unnamed.png",
+    "48": "unnamed.png",
+    "128": "unnamed.png"
+  },
+  "permissions": [
+    "activeTab",
+	"tabs",
+    "scripting"
+  ],
+  "host_permissions": ["https://www.youtube.com/"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
